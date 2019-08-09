@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    @mediaQueries screen (max-width:600px) {
+      .wrapper{
+          background-color:palevioletred;
+          color:purple;
+      }
+    }
+}
+.wrapper{
+    display:flex;
+    background-color: blue;
+    color:whitesmoke;
+}
+button{
+    background-color: rgba(43, 226, 83, 0.555);
+    cursor :pointer;
+    color:white;
+    margin-left: 10px;
+}
+button:hover{
+    background-color: green;
+}
+h1{
+    margin-left: 100px;
+    padding:20px;
+}
+.label{
+    margin-left: 390px;
+    padding:10px;
+    display:flex;
+    text-align: right;
+}
+.label input {
+    margin-left:10px;
+}
+#p{
+color:palevioletred;
+}
+
